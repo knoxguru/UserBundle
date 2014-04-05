@@ -1,0 +1,22 @@
+{
+    "name": "knoxguru/userbundle",
+    "type": "symfony-bundle",
+    "description": "A UserBundle I use to extend FOSUserBUndle",
+    "keywords": ["knoxguruserbundle"],
+    "homepage": "http://github.com/knoxguru",
+    "license": "MIT",
+    "autoload": {
+        "psr-0": { "KnoxGuru\\Bundle\\UserBundle": "" }
+    },
+    "target-dir": "KnoxGuru/Bundle/UserBundle",
+    "authors": [
+        {
+            "name": "KnoxGuru",
+            "homepage": "http://github.com/knoxguru"
+        }
+    ], 
+    "require": {
+        "php": ">=5.3.2",
+	"friendsofsymfony/user-bundle": "~1.3"
+    }
+}
